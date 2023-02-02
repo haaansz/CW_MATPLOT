@@ -80,7 +80,7 @@ const parseMetadata = metadata => {
 
       const [d] = dimensions
       const [m0, m1, m2] = measures
-      const million = 1
+      const million = 1000
       // window._pyodide_matplotlib_data = [[11, 12, 15], [13, 6, 20], [10, 8, 12], [12, 15, 8]]
       window._pyodide_matplotlib_data = data.map(dp => {
         return [
